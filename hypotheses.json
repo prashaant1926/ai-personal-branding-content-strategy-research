@@ -1,11 +1,88 @@
 [
   {
-    "id": "1",
-    "hypothesis": "AI professionals who consistently create platform-optimized content following specific engagement patterns while maintaining technical authenticity will achieve significantly higher professional visibility and thought leadership status compared to those using generic social media strategies."
+    "id": "H1a",
+    "title": "Transparency-Authority Hypothesis",
+    "hypothesis": "AI professionals who transparently document their AI collaboration processes and acknowledge the democratization of AI knowledge will achieve higher long-term professional authority and trust compared to those who position themselves as traditional gatekeepers of AI expertise.",
+    "type": "primary",
+    "null_hypothesis": "There is no significant difference in professional authority and trust between AI professionals who embrace transparency about AI democratization and those who maintain traditional expert positioning.",
+    "alternative_hypothesis": "AI professionals embracing transparency about AI democratization will demonstrate significantly higher professional authority and trust metrics.",
+    "theoretical_basis": "Epistemic humility theory and social identity theory",
+    "falsifiability_criteria": [
+      "Traditional 'AI expert' positioning consistently outperforms transparent methodology sharing",
+      "Audiences demonstrate lower trust in professionals who acknowledge AI tool usage",
+      "Transparency correlates with reduced speaking opportunities or professional recognition"
+    ],
+    "dependent_variables": ["professional_authority", "trust_metrics", "speaking_invitations", "media_mentions"],
+    "independent_variables": ["transparency_metrics", "methodology_disclosure_frequency", "ai_tool_acknowledgment"],
+    "measurement_timeline": "6-12 months longitudinal tracking"
   },
   {
-    "id": "example-1",
-    "hypothesis": "This is an example hypothesis that demonstrates the expected format.",
-    "_isExample": true
+    "id": "H2a", 
+    "title": "Meta-Cognitive Content Value Hypothesis",
+    "hypothesis": "Content focusing on meta-cognitive insights (teaching 'how to think about AI problems') will generate higher professional engagement, citation rates, and collaboration invitations than content focusing on specific technical knowledge or tool usage.",
+    "type": "primary",
+    "null_hypothesis": "There is no significant difference in professional outcomes between meta-cognitive content and technical knowledge content.",
+    "alternative_hypothesis": "Meta-cognitive content will demonstrate significantly higher engagement, citation rates, and collaboration outcomes.",
+    "theoretical_basis": "Knowledge democratization theory - methodology becomes more valuable than facts in rapidly democratizing fields",
+    "falsifiability_criteria": [
+      "Technical tutorial content consistently outperforms methodological insights",
+      "Audiences prefer specific technical knowledge over thinking frameworks", 
+      "Meta-cognitive content fails to translate into measurable professional opportunities"
+    ],
+    "dependent_variables": ["professional_engagement", "citation_rates", "collaboration_invitations", "content_sharing"],
+    "independent_variables": ["content_type_ratio", "metacognitive_vs_technical_content", "methodology_focus"],
+    "measurement_timeline": "3-6 months content analysis with outcome tracking"
+  },
+  {
+    "id": "H3a",
+    "title": "Temporal Cohort Performance Hypothesis", 
+    "hypothesis": "Professionals who built their AI brands post-ChatGPT (2023-present) using transparency-based strategies will demonstrate superior professional trajectory outcomes compared to pre-ChatGPT professionals who maintain traditional expertise positioning.",
+    "type": "primary",
+    "null_hypothesis": "There is no significant difference in professional outcomes between pre-ChatGPT and post-ChatGPT branding cohorts when controlling for experience and initial position.",
+    "alternative_hypothesis": "Post-ChatGPT transparency-based branding will significantly outperform traditional expertise positioning.",
+    "theoretical_basis": "Paradigm shift theory - fundamental changes in field dynamics create new success patterns",
+    "falsifiability_criteria": [
+      "Pre-ChatGPT professionals consistently maintain superior outcomes regardless of strategy adaptation",
+      "Traditional credentials and experience dominate over branding strategy",
+      "Temporal cohort membership has no predictive value for professional success"
+    ],
+    "dependent_variables": ["career_trajectory", "salary_progression", "role_advancement", "entrepreneurial_success"],
+    "independent_variables": ["cohort_membership", "branding_strategy_type", "strategy_adaptation_timing"],
+    "measurement_timeline": "12-18 months longitudinal cohort comparison",
+    "cohort_definitions": {
+      "pre_chatgpt": "2020-2022: Professionals who built brands before mass AI adoption",
+      "post_chatgpt": "2023-present: Professionals building brands in the democratized AI era", 
+      "transition": "Established professionals adapting their positioning"
+    }
+  },
+  {
+    "id": "H4",
+    "title": "Content Authenticity Signal Hypothesis",
+    "hypothesis": "Specific content authenticity signals (methodology disclosure, uncertainty acknowledgment, collaborative process documentation) will predict long-term professional success better than traditional engagement metrics (likes, shares, comments).",
+    "type": "secondary",
+    "null_hypothesis": "Traditional engagement metrics predict professional success as well as or better than authenticity signals.",
+    "alternative_hypothesis": "Authenticity signals will demonstrate superior predictive value for professional outcomes compared to engagement metrics.",
+    "theoretical_basis": "Authenticity theory applied to professional contexts, supported by literature findings on trust and credibility",
+    "falsifiability_criteria": [
+      "Traditional engagement metrics consistently predict professional outcomes better than authenticity signals"
+    ],
+    "dependent_variables": ["long_term_professional_success", "career_opportunities", "professional_recognition"],
+    "independent_variables": ["authenticity_signal_frequency", "methodology_disclosure", "uncertainty_acknowledgment", "collaborative_language"],
+    "measurement_timeline": "6-12 months predictive analysis"
+  },
+  {
+    "id": "H5",
+    "title": "Network Integration Hypothesis",
+    "hypothesis": "Professionals who document collaborative AI workflows and invite community participation will develop stronger, more diverse professional networks compared to those who present AI work as individual expertise.",
+    "type": "secondary", 
+    "null_hypothesis": "Individual expertise positioning leads to equivalent or stronger professional networks compared to collaborative positioning.",
+    "alternative_hypothesis": "Collaborative AI workflow documentation will result in significantly stronger and more diverse professional networks.",
+    "theoretical_basis": "Social network theory applied to democratized knowledge contexts",
+    "falsifiability_criteria": [
+      "Individual expertise positioning consistently leads to stronger professional networks"
+    ],
+    "dependent_variables": ["network_strength", "connection_diversity", "collaboration_frequency", "knowledge_flow_centrality"],
+    "independent_variables": ["collaborative_workflow_documentation", "community_participation_invitation", "individual_vs_collaborative_positioning"],
+    "measurement_timeline": "9-12 months network analysis"
   }
 ]
